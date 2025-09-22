@@ -9,7 +9,7 @@ Here, the user executed the whoami command, which simply prints the username (ha
 
 In this level, invoke the hello command to get the flag! Keep in mind: commands in Linux are case sensitive: hello is different from HELLO.
 
-**flag:** pwn.college{kIYUnfG1nXPVXx1E5W0C_PrII3H.QX3YjM1wCMyAzNzEzW}
+**FLAG:** pwn.college{kIYUnfG1nXPVXx1E5W0C_PrII3H.QX3YjM1wCMyAzNzEzW}
 
 when i typed hello into the terminal i got Success! Here is your flag: 
 then i typed in HELLO just to observe the output.
