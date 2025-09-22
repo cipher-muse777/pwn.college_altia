@@ -1,5 +1,5 @@
-#Intro to Commands 
-###In this challenge, you will invoke your first command! When you type a command and hit enter, the command will be invoked, as so:
+# Intro to Commands 
+### In this challenge, you will invoke your first command! When you type a command and hit enter, the command will be invoked, as so:
 ```
 hacker@dojo:~$ whoami
 hacker
