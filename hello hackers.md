@@ -6,8 +6,7 @@ when i typed hello into the terminal i got Success! Here is your flag:
 then i typed in HELLO just to observe the output.
 
 ### What I learned 
-*i learned how linux commands are case sensitive
-*i learned how whoami prints the current username
+i learned how linux commands are case sensitive and how whoami prints the current username
 
 # Intro to Arguments 
 **FLAG:** pwn.college{cnswvJtEfEy1WIyVzu8A6LNYBd8.QX4YjM1wCMyAzNzEzW}
