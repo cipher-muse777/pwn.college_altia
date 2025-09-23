@@ -80,4 +80,9 @@ we can use ls -a to find the hidden files in a dirctory
 # An Epic Filesystem Quest
 
 **FLAG:** pwn.college{oHob38CoesyftFK3lQdMif_bhCW.QX5IDO0wCMyAzNzEzW}
+i started using cd / then i used ls to list the files then i used cat to read DISPATCH then i opened /usr/share/locale/am/LC_MESSAGES then i used ls then i read SPOILER then i listed the files of /opt/linux/linux-5.4/include/config/x86/64/acpi without opening due to instructions and then read the file NUGGET-TRAPPED. then i opened /usr/share/javascript/mathjax/jax/output/SVG/fonts/Gyre-Pagella/Latin ls -a to find .BLUEPRINT then i read it to open /opt/linux/linux-5.4/drivers/usb/host then i listed the files and then read NOTE. then i opened /opt/linux/linux-5.4/drivers/gpu/drm/nouveau/nvkm and then ls -a to find .TIP to find /usr/share/racket/pkgs/gui-pkg-manager-lib/pkg/gui which i then opened and ls -a to find CLUE then i read it and opened /usr/share/racket/pkgs/typed-racket-compatibility/typed/scheme/base/no-check/lang/compiled and then ls -a to find HINT. i then opened /usr/lib/python3/dist-packages/sage/coding/source_coding/__pycache__ and ls -a to find .SNIPPET and finally founf the flag.
 
+### What i learned 
+its about applying all that you know into a problem and stay focused
+
+# 
