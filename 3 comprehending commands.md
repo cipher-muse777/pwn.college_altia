@@ -85,4 +85,14 @@ i started using cd / then i used ls to list the files then i used cat to read DI
 ### What i learned 
 its about applying all that you know into a problem and stay focused
 
-# 
+# Making Directories
+
+**FLAG:** pwn.college{slBygbnRUWY4yfhOBTB46TSjWU6.QXxMDO0wCMyAzNzEzW}
+i first used mkdir to form /tmp/pwn and then used touch command to make the college file in it then executed /challenge/run to get the flag 
+
+### What i learned 
+we can use mkdir command to create directories
+
+# Finding Files 
+
+**FLAG:** 
