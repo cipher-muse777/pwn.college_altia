@@ -95,4 +95,11 @@ we can use mkdir command to create directories
 
 # Finding Files 
 
-**FLAG:** 
+**FLAG:** pwn.college{AOBuqaVegWaDEqBA4lnnhqU794J.QXyMDO0wCMyAzNzEzW}
+i first used find / -name flag then used cat command on each element that was found till i found the flag
+
+### What i learned 
+we can use find command to easily find files and directories
+
+# Linking Files 
+
