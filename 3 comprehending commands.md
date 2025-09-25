@@ -103,3 +103,8 @@ we can use find command to easily find files and directories
 
 # Linking Files 
 
+**FLAG:** pwn.college{QaOpIE3ue4apn9hvrxIYXQ4Ulzh.QX5ETN1wCMyAzNzEzW}
+i first tried linking /flag and /home/hacker/not-the-flag so it showed file already exists so i used rm command to delete /home/hacker/not-the-flag and then linked them. then i put the command /challenge/catflag to obtain the flag 
+
+### What i learned 
+we can use ln -s command to link 2 files 
