@@ -32,4 +32,24 @@ how i can scroll man pages with the arrow keys (and PgUp/PgDn) and search with /
 
 # Searching For Manuals 
 
-**FLAG:**
+**FLAG:** pwn.college{owQtAAzTyFB168K5uknpPjgTLPv.QX2EDO0wCMyAzNzEzW}
+i first used man man command to understand more about manpage. i went through the contents to find theres a -K (--global-apropos) command that could help me search the contents of all the manpages to find a particular keyword so i i tried man -K /challenge/challenge to find the hidden manpage and the argument --owtzyu NUM and that NUM is 168 so i typed that to obtain the flag
+
+### What i learned 
+how i use man man command to learn more about the man command and how man -K "keyword" searches all the manpages for the keyword
+
+# Helpful Programs 
+
+**FLAG:** pwn.college{Ypc7uauHKf8_oEWgyUnSdh2luF8.QX3IDO0wCMyAzNzEzW}
+i first used /challenge/challenge --help to get details about different arguments i can use it with. so i tried all those different arguments but when i did /challenge/challenge -p i got a secret value 782 then i when i tried /challenge/challenge -g GIVE_THE_FLAG but i was not getting it then i realised i have to give the correct value so i used /challenge/challenge -g 782 and found the flag 
+
+### What i learned 
+how we can use --help to tell us how to run some commands which dont have manpage
+
+# Help for Builtins 
+
+**FLAG:** pwn.college{kuUVhFCudqoEYWWPQ-zzRDEVn3F.QX0ETO0wCMyAzNzEzW}
+i tried help challenge and found that if i do challenge --secret SECRET with the correct secret value i will get the flag that this value is kuUVhFCu so i got the flag
+
+### What i learned 
+how we can use help with a particular command to look help for built-ins
