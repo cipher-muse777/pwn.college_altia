@@ -37,3 +37,5 @@ i first did echo COLLEGE>PWN to save COLLEGE to PWN and then i did /challenge/ru
 
 ### What i learned 
 we can use command < file name to feed the values in the file to that particular command 
+
+
