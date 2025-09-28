@@ -38,4 +38,52 @@ i first did echo COLLEGE>PWN to save COLLEGE to PWN and then i did /challenge/ru
 ### What i learned 
 we can use command < file name to feed the values in the file to that particular command 
 
+# Grepping Stored Results
 
+**FLAG:** 
+
+### What i learned 
+
+# Grepping Live Output
+
+**FLAG:** 
+
+### What i learned
+
+# Grepping Errors
+
+**FLAG:** 
+
+### What i learned 
+
+# Filtering With Grep-v 
+
+**FLAG:**
+
+### What i learned 
+
+# Duplicating Piped Data With Tee
+
+**FLAG:**
+
+### What i learned 
+
+# Process Substitution For Input
+
+**FLAG:** 
+
+### What i learned 
+
+# Writing To Multiple Programs
+
+**FLAG:**
+
+### What i learned 
+
+# Split-Piping Stderr and Stdout 
+
+**FLAG:** 
+
+### What i learned 
+
+# Named Pipes
