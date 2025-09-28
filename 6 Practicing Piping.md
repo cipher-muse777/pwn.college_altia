@@ -40,33 +40,43 @@ we can use command < file name to feed the values in the file to that particular
 
 # Grepping Stored Results
 
-**FLAG:** 
+**FLAG:** pwn.college{cuUMWhh5twqGtps018tBPjTRL5b.QX4EDO0wCMyAzNzEzW}
+i first used /challenge/run > /tmp/data.txt to redirect the output of /challenge/run to /tmp/data.txt and then did grep flag /tmp/data.txt which gave me a list of words with the word flag so then i tried grep pwn.college /tmp/data.txt to obtain the flag 
 
 ### What i learned 
+how using grep command helps us sort through thousands of lines of code 
 
 # Grepping Live Output
 
-**FLAG:** 
+**FLAG:** pwn.college{IgMexXQzlGg_0S4tSc1pbRdH5YM.QX5EDO0wCMyAzNzEzW}
+i used the command  /challenge/run | grep pwn.college to obtain the flag
 
 ### What i learned
+how we can avoid the need to store results to a file but using | command that helps us pipe the standard output of left to the standard input of right
 
 # Grepping Errors
 
-**FLAG:** 
+**FLAG:** pwn.college{gFZwKwjFkpRQxhIGzWvo3lc5qJd.QX1ATO0wCMyAzNzEzW}
+i used /challenge/run 2>& 1| grep pwn.college to obtain the flag
 
 ### What i learned 
+how we can grep through the errors directly by using command 2>&1 | another command
 
 # Filtering With Grep-v 
 
-**FLAG:**
+**FLAG:** pwn.college{QmMGEkTr24Q3SEqKFYxp2rkBawI.0FOxEzNxwCMyAzNzEzW}
+i used /challenge/run | grep -v DECOY to obtain the flag
 
 ### What i learned 
+how we can sort through the files not having a particular word using grep -v word 
 
 # Duplicating Piped Data With Tee
 
-**FLAG:**
+**FLAG:** pwn.college{QeqQRhxP8f7Nr8jOI4B2W1WigLY.QXxITO0wCMyAzNzEzW}
+i first used /challenge/pwn | tee blehhh | /challenge/college to intercept the data i needed to use to pipe the contents from pwn to college. then i did cat blehhh and understood that i had to use /challenge/pwn --secret QeqQRhxP so after running /challenge/pwn |--secret QeqQRhxP /challenge/college i got the flag
 
 ### What i learned 
+we can use tee to duplicate data flowing through your pipes to any number of files provided on the command line helping us to debug things
 
 # Process Substitution For Input
 
