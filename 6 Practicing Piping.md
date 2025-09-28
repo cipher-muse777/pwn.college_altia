@@ -80,20 +80,29 @@ we can use tee to duplicate data flowing through your pipes to any number of fil
 
 # Process Substitution For Input
 
-**FLAG:** 
+**FLAG:** pwn.college{Qy_pIFulndWGwaTF7Qi6ZetvXw_.0lNwMDOxwCMyAzNzEzW}
+i used diff <(/challenge/print_decoys) <(/challenge/print_decoys_and_flag) and i got the flag
 
 ### What i learned 
+how we can use <(command) to run the command and  hook up its output to a temporary file that it will create.
 
 # Writing To Multiple Programs
 
-**FLAG:**
+**FLAG:** pwn.college{ALeFnATXRFMFACU4crW3DcESFIm.QXwgDN1wCMyAzNzEzW}
+i used /challenge/the < <(/challenge/hack | tee >( /challenge/planet )) to send the outputs of /challenge/hack to both /challenge/the and /challenge/planet to obtain the flag
 
 ### What i learned 
+how we can dupicate data into two files using tee and we can obtain desired commands using <() <<() etc etc
 
 # Split-Piping Stderr and Stdout 
 
-**FLAG:** 
+**FLAG:** pwn.college{AjFzEbV68SFxtqEo89S3Vm520kj.QXxQDM2wCMyAzNzEzW}
+i used /challenge/hack 1> >(/challenge/planet) 2> >(/challenge/the) to duplicate the output of /challenge/hack to /challenge/planet and then send the error yo /challenge/the to obtain the flag
+
 
 ### What i learned 
+we can use multiple pipings in one single line of code
 
 # Named Pipes
+
+**FLAG:** 
