@@ -41,12 +41,26 @@ how using env command we can print all the exported variables
 # Storing Command Output
 
 **FLAG:** pwn.college{ogDrQrVCywtcwg3TXJU8pDqf95e.QX1cDN1wCMyAzNzEzW}
-i used PWN=$ `challenge/run /flag` to obtain the flag
+i used PWN=$ (challenge/run /flag) to obtain the flag
 
 ### What i learned 
 how we can store the output of some command into a variable by using variable name=$ (command /file)
 
+# Reading Input
 
+**FLAG:** pwn.college{kMb89I3ulQE8PNQXK5GVwRb8TxG.QX4cTN0wCMyAzNzEzW} 
+i used read PWN and then entered COLLEGE to set the value
+
+### What i learned 
+how we can use read command to set a value to a variable and how -p helps us specify the prompt like read -p "input:" variable
+
+# Reading Files
+
+**FLAG:** pwn.college{Ijuucp2A4xTM5yKTCeJ64LZ25YK.QXwIDO0wCMyAzNzEzW}
+i used read PWN < /challenge/read_me command to feed the value of /challenge/read_me to PWN to obtain the flag
+
+### What i learned
+how we can direct some file into the standard output of some command on a variable by using command variable < some file
 
 
 
