@@ -105,4 +105,8 @@ we can use multiple pipings in one single line of code
 
 # Named Pipes
 
-**FLAG:** 
+**FLAG:** pwn.college {oyiamSy0Sgf4m2luv38-0DDdGZm.01MzMDOxwCMyAzNzEzW}
+i first did mkfifo /tmp/flag_fifo then /challenge/run > /tmp/flag_fifo to redirect the output of /challenge/run in my pwn.college terminal then i did the remaining in my ubuntu terminal after doing  ssh -i key hacker@dojo.pwn.college to connect it. i did the command cat /tmp/flag_fifo to obtain the flag
+
+### What i learned 
+how we can make fifo files using mkfifo command and do normal commands to it. mkfifo has no disc storage and once read fifo the data in it is gone, fifo blocks any operations on them until both the read side of the pipe and the write side of the pipe are ready and fifo supports multiple readers and writers therefy helping in complex data flow
