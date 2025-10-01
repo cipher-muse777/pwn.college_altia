@@ -35,6 +35,18 @@ how we can specify a particular number of lines out of a very long output of a c
 
 # Extracting Specific Sections Of Section 
 
-**FLAG:** pwn.college{
+**FLAG:** pwn.college{M4B_NssAYnnyQoq86oabzBpngvp.01NxEzNxwCMyAzNzEzW}
+i used the command /challenge/run |cut -d " " -f 2 | tr -d "\n" to grab 2nd columns of data and then deleted all the newlines
+
+### What i learned 
+we can extract specific columns of a data by using some command | cut -d " " -f coloumn-no
+
+# Sorting Data 
+
+**FLAG:** pwn.college{s-Njdy4SYQTuqSDqU3fx5yIuA4V.0FM0MDOxwCMyAzNzEzW}
+i used the command sort /challenge/flags.txt alphabetically and obtained the flag 
+
+### What i learned 
+how we can sort throught a file using sort command. by defaults is alphabetical and then we can use arguments like -r (reverse order) -n (for numbers) -u (remove duplicates) -R (random order)
 
 
