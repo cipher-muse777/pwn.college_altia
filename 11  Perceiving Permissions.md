@@ -48,4 +48,12 @@ how we need to be very observant and properly concentrate while running commands
 
 # Permission Setiing Practice 
 
-**FLAG:** pwn.college{
+**FLAG:** pwn.college{8-UQTWMo8hRJiLDMqQa8j2OEEb5.QXzETO0wCMyAzNzEzW}
+i executes 1.chmod u=rx,g=wx,o=x /challenge/pwn, 2.chmod u=-,g=rwx,o=- /challenge/pwn, 3.chmod u=r,g=rx,o=x /challenge/pwn, 4.chmod u=w,g=rw,o=x /challenge/pwn, 5.chmod u=x,g=rw,o=w /challenge/pwn, 6.chmod u=rx,g=r,o=rw /challenge/pwn, 7.chmod u=r,g=wx,o=w /challenge/pwn, 8.chmod u=rwx,g=rx,o=rw /challenge/pwn, AND THEN FINALLY I DID chmod a=rwx /flag and then ran cat /flag to obtain the flag 
+
+### What i learned 
+how we can set permissions overwriting the previous by using chmod u/g/o/a=r/w/x filename AND NO SPACES BETWEEN THEM THE COMMAS
+
+# The SUID Bit
+
+**FLAG:**
