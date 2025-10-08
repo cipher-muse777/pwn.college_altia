@@ -10,5 +10,5 @@ Untangle these changes to reveal the code and continue your ascent.
 
 # WRITE UP 
 **FLAG:** citadel{b3tt3r_ROTt3n} 
-rot hint tells us that we use rot cipher 47 and 13 hints at the rot numbers
+rot hint tells us that we should use rot cipher. 47 and 13 hints at the rot numbers
 no sensible flag forms with 13, so we used 47 to get flag
