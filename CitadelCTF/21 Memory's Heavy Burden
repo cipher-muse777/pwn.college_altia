@@ -1,0 +1,23 @@
+# DESCRIPTION 
+
+you now find yourself in the place where many climbers have been laid to rest. A cold wind moves through the temple grounds,
+carrying whispers of the departed. Stone lanterns and marble graves reflect Buddhist traditions, their shadows 
+stretching across the frost-covered earth. The temple rests in the shadow of a very iconic mountain, quiet and 
+imposing. Every detail in the image, the arrangement of the graves, the lanterns, and the lingering scent of incense, 
+holds clues to its true location. You need to uncover the exact coordinates of where you are to move on from here.
+
+Note: round off coordinates to 3 decimal places.
+
+Flag format: citadel{XX.XXX_XXX.XXX}
+
+# WRITE UP
+**FLAG:** citadel{35.486_138.699}
+A picture is given. We can see mount Fuji in the distance, meaning its in Japan. 
+The compass direction showed the place was North of Mt.Fuji
+https://private-user-images.githubusercontent.com/230803596/498903547-1739f8ee-6988-4420-b2fd-103686c73927.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTk5Mzc0NzEsIm5iZiI6MTc1OTkzNzE3MSwicGF0aCI6Ii8yMzA4MDM1OTYvNDk4OTAzNTQ3LTE3MzlmOGVlLTY5ODgtNDQyMC1iMmZkLTEwMzY4NmM3MzkyNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMDA4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTAwOFQxNTI2MTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wMmFhODM1YTFiMzRlZDEwYTZiM2M2Yzg1MjM1OTFkNmU5MjE5YzY4MmUzOTU1ZTZhYzBlNzg5MmI3OWRkMWRiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.o03MPsZAlrKff2p20vCroAFZYXGk2ZtozPS5PBjqYMY
+
+The description hints at a temple or a cemetary (also confirmed by the picture)
+On Google Earth, approximate coordinates were coming as 35.XXX and 138.XXX
+From description, it is a buddhist cemetary. Searching for all buddhist cemetaries north of mt.fuji, 
+and checking them on street view, we land on the correct one (Tsugenji Temple), 
+noting down its coordinates, and getting the flag (round the number to 3 decimal places)
