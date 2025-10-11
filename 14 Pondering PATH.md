@@ -33,5 +33,10 @@ how we can add a new directory to a path rather than wiping and redefining it ev
 # Hijacking Commands
 
 **FLAG:** pwn.college{0Xy2LTJnWLo0wgDt3gOCbnnz3Go.QX3cjM1wCMyAzNzEzW}
-i first created a directory using mkdir /tmp/pwn then i echo '#!/bin/bash' > /tmp/pwn/rm to make a fake command script with shebang and then used chmod a+x /tmp/pwn/rm to give permissions 
-PATH="/tmp/pwn:$PATH" THEN FINALLY ran /challenge/run to obtain the flag
+i first created a directory using mkdir /tmp/pwn then i echo '#!/bin/bash' > /tmp/pwn/rm to make a fake command script with shebang and then used chmod a+x /tmp/pwn/rm to give permissions and then echo 'cat -- "$@"' >> /tmp/pwn/rm and then PATH="/tmp/pwn:$PATH" THEN FINALLY ran /challenge/run to obtain the flag.
+
+### What i learned 
+how we can use echo '#!/bin/bash' > /tmp/pwn/rm to make a fake command script and how  echo 'cat -- "$@"' >> /tmp/pwn/rm safely reads and outputs the contents of all arguments passed to the script, treating each as a literal filename
+
+### REFERENCES 
+copilot guided me through the steps when i got stuck 
