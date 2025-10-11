@@ -82,9 +82,63 @@ how we can use echo $1 $2 $3 etc to accept and decide the order of the arguments
 i first executed cat> /home/hacker/solve.sh and then 
 ```
 #!/bin/bash
-if ["$1" == "pwn"]; 
+if [ "$1" == "pwn" ]
 then 
  echo "college" 
 fi
 ```
 and then bash /home/hacker/solve.sh pwn to make sure i had the required outcome and then executed /challenge/run to obtain the flag
+
+### What i learned
+how we can use if [ "$1" == "someword" ] to obtain a particular output if a particular argument is used with bash. DONT FORGET THE SPACES INSIDE THE SPACE.
+
+# Scripting With Default Cases
+
+**FLAG:** pwn.college{grexWd2Wyu9Pjdmx8DkQaCjQTTd.01NzMDOxwCMyAzNzEzW}
+i first executed cat> /home/hacker/solve.sh and then 
+```
+#!/bin/bash
+if [ "$1" == "pwn" ]
+then 
+ echo "college" 
+else
+ echo "nope"
+fi
+```
+and then bash /home/hacker/solve.sh pwn to make sure i had the required outcome and then executed /challenge/run to obtain the flag
+
+### What i learned 
+how we can use if [ "$1" == "someword" ] along with else to obtain a particular output if a particular argument is used with bash 
+
+# Scripting With Multiple Conditions
+
+**FLAG:** pwn.college{4_IHzBYBzjJ-yoxAEBUbvXnk8xP.0FOzMDOxwCMyAzNzEzW}
+i first executed cat> /home/hacker/solve.sh and then 
+```
+#!/bin/bash
+if [ "$1" == "hack" ] 
+then 
+ echo "the planet" 
+elif [ "$1" == "pwn" ]
+then 
+ echo "college"
+elif [ "$1" == "learn" ]
+then 
+ echo "linux"
+else 
+ echo "unknown"
+fi
+```
+and then bash /home/hacker/solve.sh pwn to make sure i had the required outcome and then executed /challenge/run to obtain the flag
+
+### What i learned 
+how we can use if [ "$1" == "someword" ] along with elseif [ "$1" == "something" ] and else to obtain a particular output and its various different possibilities if a particular argument is used with bash 
+
+# Reading Shell Scripts 
+
+**FLAG:** pwn.college{cwZIgS5YJubTj2Rb_kcUWeLdyZz.0lMwgDOxwCMyAzNzEzW}
+i first executed cat /challenge/run to read the shell script which gave me the password that is hack the PLANET. then i ran /challenge/run and then entered the password to obtain the flag
+
+### What i learned 
+how we can use the cat command to read a shell script that requires you to put in a secret password, but that password is hardcoded into the script iself
+
