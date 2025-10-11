@@ -49,4 +49,42 @@ how we can make an executable script file by changing the permissions using chmo
 # Understanding Shebangs
 
 **FLAG:** pwn.college{4aJSjs5Ptnu5-HcYyU6DAGSSVl6.0VOzMDOxwCMyAzNzEzW}
-i first executed cat > /home/hacker/solve.sh to make sure my file doesn't have a blank line initially 
+i first executed cat > /home/hacker/solve.sh to make sure my file doesn't have a blank line initially and then i ran 
+```
+#!/bin/bash     
+echo "hack the planet"
+```
+then ctrl+d to exit and then changed permissions using chmod a+x solve.sh and then executed /challenge/run to obtain the flag
+
+### What i learned 
+how we can use cat> filename to make create a new file and type content directly into it from the terminal. thereby helping us not have a blankline initially which will be there if we use touch command and how #!/bin/bash for bash scripts
+#!/usr/bin/python3 for Python scripts #!/bin/sh for POSIX shell scripts helps Linux treat the file as an interpreted program, and the contents of the rest of the line as the path to the interpreter. It then invokes the interpreter with the path to the program file as its only argument.
+
+### References 
+https://www.geeksforgeeks.org/linux-unix/cat-command-in-linux-with-examples/
+
+# Scripting With Arguments
+
+**FLAG:** pwn.college{snsCnQkT67vXK8AQElM6SsGYvWJ.0VNzMDOxwCMyAzNzEzW}
+i first executed cat> /home/hacker/solve.sh and then 
+```
+#!/bin/bash
+echo $2 $1
+```
+then ctrl+d to exit i ran  bash /home/hacker/solve.sh pwn college to make sure i had the required outcome and then executed /challenge/run to obtain the flag
+
+### What i learned
+how we can use echo $1 $2 $3 etc to accept and decide the order of the arguments 
+
+# Scripting Wuth Conditionals
+
+**FLAG:** pwn.college{AM3v9s7vMaMH567QOscOgJL-htw.0lNzMDOxwCMyAzNzEzW}
+i first executed cat> /home/hacker/solve.sh and then 
+```
+#!/bin/bash
+if ["$1" == "pwn"]; 
+then 
+ echo "college" 
+fi
+```
+and then bash /home/hacker/solve.sh pwn to make sure i had the required outcome and then executed /challenge/run to obtain the flag
